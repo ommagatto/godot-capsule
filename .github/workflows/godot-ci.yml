@@ -11,7 +11,7 @@ env:
 jobs:
   export-windows:
     name: WindowsExport
-    runs-on: ubuntu-22.04  # Use 24.04 with godot 4
+    runs-on: ubuntu-24.04  # Use 24.04 with godot 4
     container:
       image: barichello/godot-ci:4.6.2
     steps:
@@ -39,7 +39,7 @@ jobs:
 
   export-linux:
     name: LinuxExport
-    runs-on: ubuntu-22.04  # Use 24.04 with godot 4
+    runs-on: ubuntu-24.04  # Use 24.04 with godot 4
     container:
       image: barichello/godot-ci:4.6.2
     steps:
@@ -65,7 +65,7 @@ jobs:
 
   #export-mac:
     #name: MacExport
-    #runs-on: ubuntu-22.04  # Use 24.04 with godot 4
+    #runs-on: ubuntu-24.04  # Use 24.04 with godot 4
     #container:
       #image: barichello/godot-ci:4.6.2
     #steps:
