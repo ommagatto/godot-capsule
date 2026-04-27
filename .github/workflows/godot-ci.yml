@@ -6,7 +6,7 @@ on: push
 env:
   GODOT_VERSION: 4.6.2
   EXPORT_NAME: Godot Capsule
-  PROJECT_PATH: .
+  PROJECT_PATH: ../
 
 jobs:
   export-windows:
